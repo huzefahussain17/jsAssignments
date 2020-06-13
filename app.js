@@ -1,49 +1,52 @@
-var chapter = window.prompt("Enter the chapter no:");
 
 // chp#1
-if(chapter==1){
 
-    var task = window.prompt("Enter the task no:");
-
-if (task==1){
+//Task 1
+    {
     alert("HEllo!, How are you");
 }
 
-if (task==2){
+//Task 2
+{
     alert("Error! Please enter a valid password.");
 }
 
-if (task==3){
+//Task 3
+{
     alert("Welcome to JS Land...\nHappy coding!");
 }
 
-if (task==4){
+//Task 4
+{
     alert("Welcome to JS Land...");
     alert("Happy coding!");
 }
 
-if (task==5){
+
+//Task 5
+{
     alert("Hello... I can run JS through my web browser console");
 }
-}
-// chp#2
-if(chapter==2){
-    var task = window.prompt("Enter the task no:");
 
-if(task==1){
+// chp#2
+    //Task 1
+{
     var username;
 }
 
-if(task==2){
+//Task 2
+{
     var myName="Syed Muhammad Huzefa Hussain";
 }
 
-if(task==3){
+//Task 3
+{
     var message="Hello World";
     alert(message);
 }
 
-if(task==4){
+//Task 4
+{
     var name="John Doe";
     var age=15;
     var qualification="Certified Mobile Application development";
@@ -52,75 +55,82 @@ if(task==4){
     alert(qualification);
 }
 
-if(task==5){
+//Task 5
+{
     alert("PIZZA\nPIZZ\nPIZ\nPI\nP")
 }
 
-if(task==6){
+//Task 6
+{
     var email="example@example.com";
     alert(email);
 }
 
-if(task==7){
+//Task 7
+{
     var a="A smarter way to learn Java Script";
     alert(a);
 }
 
-if(task==8){
+//Task 8
+{
     document.write("Yah! I can write HTML content through JavaScript");
 }
 
-if(task==9){
+//Task 9
+{
     var b="▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬ ";
     alert(b);
 }
 
-}
 // chp#3
-if(chapter==3){
-    var task = window.prompt("Enter the task no:");
 
-if(task==1){
+
+// Task 1
+{
     var age="I am 15 years old ";
     alert(age);
 }
 
-if(task==2){
+//Task 2
+{
     var a="You have visited this site 15 times ";
     alert(a);
 }
 
-if(task==3){
+//Task 3
+{
     var birthYear="My birth year is 1990";
     document.write(birthYear);
     
 }
 
-if(task==4){
+//TAsk 4
+{
    var name="John Doe", quantity="5 T-shirt(s)", shop="XYZ Clothing Store";
     document.write("",name + "\tordered" + "\t",quantity + "\ton" + "\t",shop);
 }
 
-}
+
 
 // chp#4
-if(chapter==4){
-    var task = window.prompt("Enter the task no:");
+{
 
 
 }
 // chp#5
-if(chapter==5){
-    var task = window.prompt("Enter the task no:");
 
-    if (task==1){
+
+    //Task 1
+    {
         var a=3;
         var b=5;
         var c=a+b;
         document.write("Sum of " + " " + a + " " + "and" + " " + b + " " + "is" + " " + c);
     }
 
-    if (task==2){
+    //Task 2
+    {
         var a=3;
         var b=5;
         var c=a-b;
@@ -132,7 +142,8 @@ if(chapter==5){
        
     }
 
-    if (task==3){
+    //Task 3
+    {
         var a;
         document.write(a,'<br>');
         var a=5;
@@ -148,7 +159,8 @@ if(chapter==5){
 
     }
 
-    if (task==4){
+    //Task 4
+    {
         var oneTicket=600;
         b=oneTicket*5;
         document.write("Total cost to buy 5 tickets to movie is" + " ",b +"PKR" )
@@ -171,7 +183,8 @@ if(chapter==5){
     
     }
 
-    if (task==6){
+    //Task 6
+    {
         var a=25;
         var b=(a*9/5)+32;
         var c =70;
@@ -180,7 +193,8 @@ if(chapter==5){
         document.write(c + "°F" + " " + "is" + " " + d + "°C");
     }
 
-    if (task==7){
+    //TAsk 7
+    {
 
         var a =650;
         var b=3;
@@ -196,7 +210,8 @@ if(chapter==5){
         document.write("Total cost of your order is" + " " + (a*b+c*d+e));
     }
 
-    if(task==8){
+    // Task 8
+    {
         var a=840;
         var b=980;
         var c=(a/b)*100;
@@ -205,7 +220,8 @@ if(chapter==5){
         document.write("Percentage:" + " " + c,'<br>');
     }
 
-    if(task==9){
+    //Task 9
+    {
         
         var a=10;
         var b=25;
@@ -214,7 +230,8 @@ if(chapter==5){
         document.write("Total currency in PKR:" + " " + c);
     }
 
-    if(task==10){
+    //Task 10
+    {
 
         var a=10;
         var b=(((a+5)*10)/2);
@@ -222,7 +239,8 @@ if(chapter==5){
 
     }
 
-    if(task==11){
+    //Task 11
+    {
 
         var a=2016;
         var b=1992;
@@ -235,7 +253,8 @@ if(chapter==5){
         
     }
 
-    if(task==12){
+    //Task 12
+    {
         var a=20;
         var b=2*3.142*a;
         var c=3.142*a^2;
@@ -243,9 +262,11 @@ if(chapter==5){
         document.write("Radius of a circle" + " " + a,'<br>');
         document.write("The circumference is" + " " + b,'<br>');
         document.write("The area is" + " " + c,'<br>');
+        
     }
-
-    if(task==13){
+        
+    //TAsk 13
+        {
         var a="chocolate chip"
         var b=15;
         var c=65;
@@ -259,13 +280,12 @@ if(chapter==5){
     }
     
 
-}
 
-    if(chapter==6){
-        var task=window.prompt("Enter the task no")
+
+//CHAPTER 6-9    
         
         // Task 1
-        if(task==1){
+        {
 
             var a=10;
             document.write("Result:<br>");
@@ -278,13 +298,13 @@ if(chapter==5){
 
         
         // Task 3
-        if(task==3){
+        {
             var a=window.prompt("Enter your name");
             alert("Hello" + " " + a + " " + "Good Morning");
         }
 
         // Task 5
-        if (task==5){
+        {
             
             var a=window.prompt("Enter a no for multiplication table");
                 
@@ -298,17 +318,17 @@ if(chapter==5){
 
         // Task 6
 
-        if (task==6){
+        {
 
             document.write("<tr><b><td>Subject </td><td>Total marks</td> <td>Obtained marks</td> <td>Percentage</td></b></tr><br>");
             document.write(" <td>English</td> <td>100</td> <td>54</td> <td>54%<td>");
 
         }
-    }
-
-    if(chapter==7){
-        var task=window.prompt("Enter the no of task");
-        if(task==1){
+    
+// CHAPTER 9-11
+    
+        //TAsk 1
+        {
 
          var x ="Karachi"
           var a = window.prompt("Enter the city name");
@@ -318,7 +338,8 @@ if(chapter==5){
             
         }
 
-        if(task==2){
+        //Task 2
+        {
 
             var x="male";
             var y="female" ;
@@ -333,7 +354,8 @@ if(chapter==5){
         }
 
 
-        if(task==3){
+        //Task 3
+        {
 
             var x="red";
             var y="yellow";
@@ -353,7 +375,8 @@ if(chapter==5){
         }
 
 
-        if (task==4){
+        //Task 4
+        {
 
            a= window.prompt("Enter remaining fuel in a car in litres.");
            if (a<=0.25){
@@ -361,7 +384,8 @@ if(chapter==5){
            }
         }
 
-        if(task==5){
+       //Task 5
+        {
             // part a
             var a = 4;
             if (++a === 5){
@@ -422,7 +446,8 @@ if(chapter==5){
           }
 
 
-    if (task==6){
+    // Task 6
+    {
         document.write("<h1>Mark Sheet</h1><br><br>")
       
         a=+window.prompt("Enter marks");
@@ -472,7 +497,8 @@ if(chapter==5){
         }
     }
 
-    if (task==7){
+    //Task 7
+    {
 
         var a=5;
         var b =window.prompt("Guess the no");
@@ -486,7 +512,8 @@ if(chapter==5){
 
     }
 
-    if (task==8){
+    //Task 8
+    {
 
         var a= window.prompt("Enter the no ");
         if (a%3==0){
@@ -498,7 +525,8 @@ if(chapter==5){
     }
 
 
-    if (task==9){
+    //Task 9
+    {
 
         var a= window.prompt("Enter the no ");
             if (a%2==0){
@@ -515,7 +543,8 @@ if(chapter==5){
 
 
 
-    if (task==10){
+    //Task 10
+    {
 
         var T=window.prompt("Enter the temperature");
         if (T>40){
@@ -537,7 +566,7 @@ if(chapter==5){
         }
     }
 
-    if (task==11){
+    // Task 11
 
      var val1=+prompt("Enter your first value");
      var sign=prompt("Enter your operator");
@@ -560,18 +589,19 @@ if(chapter==5){
         var x=val1/val2;
         alert("val1 / val2 = " + x);
     }
-    }
-}
-if(chapter==8){
-    var task=window.prompt("Enter the no of task");
-    if(task==1){
+    
+
+    //CHAPTER 12-13
+    //Task 1
+    {
 
    
       
         
     }
 
-    if(task==2){
+    //Task 2
+    {
 
         var a=+window.prompt("Enter first no");
         var b=+window.prompt("Enter second no");
@@ -590,7 +620,8 @@ if(chapter==8){
         }
 
 
-    if (task==3){
+    //Task 3
+    {
 
         var a=window.prompt("ennter the no");
         if(a>0){
@@ -604,7 +635,8 @@ if(chapter==8){
         }
     }
 
-    if (task==4){
+    // TAsk 4
+    {
 
         var x=window.prompt("Enter a Character");
       
@@ -616,7 +648,8 @@ if(chapter==8){
         }
     }
 
-    if (task==5){
+    //Task 5
+    {
 
         var a="pakistan";
         x=window.prompt("Enter a passsword","password");
@@ -631,7 +664,8 @@ if(chapter==8){
         }
     }
 
-    if (task==6){
+    //Task 6
+    {
 
         // var greeting;
         var hour = 13;
@@ -643,7 +677,8 @@ if(chapter==8){
             }
     }
 
-    if (task==7){
+    //Task 7
+    {
 
         var a=window.prompt("Enter time in 24 hours clock format")
 
@@ -744,40 +779,47 @@ if(chapter==8){
         }
     }
 
-}  
 
+//CHAPTER 14-16
 
-if (chapter==9){
+// Task 1
+{
     var task=window.prompt("Enter the no of task");
     if(task==1){
       var names=[];
     }
 
-    if(task==2){
+    //TAsk 2
+    {
         var names=[];
       }
 
-    if(task==3){
+    // Task 3
+      {
         var names=["Huzefa","Salman","Ammar","Umair"];
         alert(names);
     }
 
-    if(task==4){
+    // Task 4
+    {
         var numbers=[24,34,56,78];
         alert(numbers[2]);
     }
 
-    if(task==5){
+    // Task 5
+    {
         var booleanValues=[true,false];
         alert(booleanValues);
     }
 
-    if(task==6){
+    // Task 6
+    {
         var mixedArray = [1, "Bob", "Now is", true];
         alert(mixedArray);
     }
 
-    if (task==7){
+    // Task 7
+    {
 
         var qualification=["SSC","HSC","BCS","BS","BCOM","MS","M.Phil","PhD"];
         document.write("<h1>Qualification </h1><br><br>" + qualification[0] ,'<br>' + 
@@ -786,7 +828,8 @@ if (chapter==9){
          qualification[5],'<br>' + qualification[6],'<br>' + qualification[7])
     }
 
-    if (task==8){
+    // Task 8
+    {
         var names =["Michael","John","Tony"];
         var score=[320,230,480];
         var x= (score[0]/500)*100;
@@ -801,7 +844,8 @@ if (chapter==9){
         "Percentage:" + " " + z+"%" ,'<br>');
     }
 
-    if (task==9){
+    // Task 9
+    {
         
        var color=["red","blue","orange"];
        document.write(color,'<br>');
@@ -855,15 +899,16 @@ if (chapter==9){
 
 
     
-    if (task==10){
+    // Task 10
+    {
         var scores=[320,230,480,120];
         scores.sort();
         alert(scores);
         
     }
 
-    if (task==11){
-        
+    // Task 11
+    {        
         var cityList=["karachi","Lahore","Islamabad","Quetta","Peshawar"]
         document.write("<h1>Cities List:</h1><br>" + cityList,'<br><br>');
 
@@ -872,22 +917,50 @@ if (chapter==9){
 
     }
 
-    if (task==12){
-
-        var arr = ["This","is","my","Cat"];
-       var a="";
+    // Task 12
+{
+        var arr = [This,is, a,cat];
+        arr.toString()
         document.write("<h1>Array:</h1><br>"+ arr + '<br><br>')
-         a=arr.toString();
-        document.write("<h1>String:</h1><br>" + a);
+         
+        document.write("<h1>String:</h1><br>" + arr);
 
-    }
+ }
 
+
+
+
+// Chapter 17-20
+
+
+// Task 1
+{
+    var arr=[];
 }
 
+// Task 2
+{
+    var arr=[[0,1,2,3],[1,0,1,2],[2,1,0,1]]
+    document.write(arr[0],'<br>' + arr[1],'<br>'+ arr[2] );
+}
 
-if (chapter==10){
-    var task=window.prompt("Enter the no of task");
-    if(task==1){
-      alert("hello")
+// Task 3
+
+{
+
+    for (var i=1; i<=10;i++){
+        document.write(i,'<br>')
     }
 }
+
+// Task 4
+{
+    var a=window.prompt("Enter a no for multiplication table");
+    var b =window.prompt("Enter the length");
+    var c="";
+    for (i=1;i<=b;i++){
+        c += a+ " x " +i+ " = " +(i*a)+ "<br/>";
+    }
+    document.write(c);
+}
+
